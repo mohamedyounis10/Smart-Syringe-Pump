@@ -92,26 +92,22 @@
 ## 📸 Screenshots
 
 <div align="center">
+  
+### Visual identity
+<img width="1432" height="805" alt="image" src="https://github.com/user-attachments/assets/161a1618-0b23-402b-8b32-cb02632efb0d" />
 
 ### Login & Authentication
-<!-- Add your login screen screenshot here -->
-![Login Screen](assets/images/screenshots/login.png)
+<img width="1432" height="805" alt="image" src="https://github.com/user-attachments/assets/357c2899-d554-42b9-bd0a-cdedc98f2aa6" />
 
 ### Home Screen - Solution Control
-<!-- Add your home screen screenshot here -->
-![Home Screen](assets/images/screenshots/home.png)
+<img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/94d2a60a-e86e-4630-bbca-9f84629bf876" />
 
 ### Solution History
-<!-- Add your history screen screenshot here -->
-![History Screen](assets/images/screenshots/history.png)
+<img width="1432" height="740" alt="image" src="https://github.com/user-attachments/assets/5aea3f90-e3c6-4f7f-be61-2e5a16814a72" />
+
 
 ### Profile Management
-<!-- Add your profile screen screenshot here -->
-![Profile Screen](assets/images/screenshots/profile.png)
-
-### Real-time Progress Monitoring
-<!-- Add your progress monitoring screenshot here -->
-![Progress Screen](assets/images/screenshots/progress.png)
+<img width="1432" height="805" alt="image" src="https://github.com/user-attachments/assets/b5b7922c-5058-40fd-ad11-6ac2b2f86204" />
 
 </div>
 
@@ -357,24 +353,12 @@ This project is private and proprietary. All rights reserved.
 
 ---
 
-## 👥 Authors
-
-- **Development Team** - *Initial work*
-
----
-
 ## 🙏 Acknowledgments
 
 - Flutter team for the amazing framework
 - Firebase for backend services
 - MQTT community for protocol support
 - All contributors and testers
-
----
-
-## 📞 Support
-
-For support, email [your-email@example.com] or open an issue in the repository.
 
 ---
 
