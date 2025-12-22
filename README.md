@@ -1,4 +1,4 @@
-# Smart Syringe Pump Project
+# Smart Syringe Pump Project 💉
 
 ## 📋 Overview
 
