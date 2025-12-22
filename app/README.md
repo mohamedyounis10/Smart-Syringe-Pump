@@ -118,9 +118,7 @@
 <div align="center">
 
 ### Application Demo Video
-
-<!-- Add your demo video link here -->
-[![Demo Video](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
+https://github.com/user-attachments/assets/66a63abb-2c26-4af0-a334-da13ad77ef90
 
 **Click the image above to watch the full demo video**
 
