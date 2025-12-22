@@ -1,1 +1,231 @@
-# Smart-Syringe-Pump
+# Smart Syringe Pump Project
+
+## 📋 Overview
+
+A smart syringe pump system that operates via remote control over the internet using ESP32 and MQTT protocol. This project enables precise control over liquid volume and injection time with high accuracy.
+
+## 🎯 Features
+
+- ✅ Remote control via WiFi and MQTT
+- ✅ Set liquid volume in milliliters (ML)
+- ✅ Set injection time in seconds
+- ✅ Automatic retraction after injection
+- ✅ Real-time system status updates
+- ✅ High precision stepper motor control
+
+## 🔧 Hardware Components
+
+### Required Components:
+- **ESP32 Development Board** - Main microcontroller with WiFi capability
+- **Stepper Motor** - For precise linear movement
+- **Stepper Motor Driver** (Optional - depends on motor type)
+- **Power Supply** - Appropriate power adapter
+- **Jumper Wires** - For connections
+- **Breadboard** (Optional) - For prototyping
+
+### Motor Connections:
+```
+Motor Pin 1 → GPIO 26 (D26)
+Motor Pin 2 → GPIO 25 (D25)
+Motor Pin 3 → GPIO 33 (D33)
+Motor Pin 4 → GPIO 32 (D32)
+```
+
+## 🔩 Mechanical Components
+
+### Required Mechanical Parts:
+
+#### 1. Pump Structure
+- [ ] Fixed base for the pump
+- [ ] Stepper motor mount/holder
+- [ ] Needle/tube mounting system
+
+#### 2. Motion System
+- [ ] Lead screw connected to the motor
+- [ ] Moving platform to hold the syringe
+- [ ] Linear guide to ensure straight movement
+
+#### 3. Syringe System
+- [ ] Adjustable syringe holder
+- [ ] Syringe clamping mechanism
+- [ ] Connection tube (optional)
+
+#### 4. Safety and Stability
+- [ ] Limit switches (optional)
+- [ ] Additional structural support
+- [ ] Protective cover (optional)
+
+### Recommended Mechanical Specifications:
+- **Frame Material**: Aluminum or ABS plastic
+- **Motion Type**: High-precision linear movement
+- **Travel Range**: Depends on syringe size
+- **Speed Control**: Adjustable via settings
+
+## 💻 Software Setup
+
+### Software Requirements:
+- Arduino IDE
+- Required Arduino Libraries:
+  - WiFi (Built-in)
+  - PubSubClient
+  - CustomStepper (Included in project)
+
+### Setup Steps:
+
+1. **Install Arduino IDE and ESP32 Board Support**
+   ```
+   File → Preferences → Additional Board Manager URLs
+   Add: https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
+   ```
+
+2. **Install PubSubClient Library**
+   ```
+   Tools → Manage Libraries → Search for "PubSubClient" → Install
+   ```
+
+3. **Configure WiFi and MQTT Settings**
+   ```cpp
+   const char* wifi_ssid = "Your_Network_Name";
+   const char* wifi_password = "Your_Password";
+   const char* mqtt_server = "test.mosquitto.org";
+   ```
+
+4. **Upload Code to ESP32**
+   - Select Board: ESP32 Dev Module
+   - Select appropriate Port
+   - Click Upload
+
+## 📡 MQTT Protocol
+
+### Topics:
+
+| Topic | Description | Data Type |
+|-------|-------------|-----------|
+| `syringe/ml` | Set liquid volume in milliliters | Float |
+| `syringe/time` | Set injection time in seconds | Float |
+| `syringe/cmd` | Start command (`start` or `1`) | String |
+| `syringe/status` | System status (read-only) | String |
+
+### Usage Example:
+
+```python
+# Set volume
+client.publish("syringe/ml", "5.0")  # 5 milliliters
+
+# Set time
+client.publish("syringe/time", "10.0")  # 10 seconds
+
+# Start injection
+client.publish("syringe/cmd", "start")
+```
+
+## ⚙️ Configurable Settings
+
+In `script.ino` you can modify:
+
+```cpp
+const int STEPS_PER_ML = 3000;        // Steps per milliliter
+const int RETRACT_SPEED_MICROS = 2000; // Retraction speed
+```
+
+## 🖥️ User Interface (UI)
+
+The project is connected to a user interface for remote control of the pump.
+
+### UI Features:
+- Set liquid volume
+- Set injection time
+- Start/Stop button
+- Real-time system status display
+- Operation log
+
+---
+
+## 📸 Project Images
+
+### Complete Project Image
+<!-- Add project image here -->
+![Smart Syringe Pump Project](images/project-image.jpg)
+
+### UI Connection Image
+<!-- Add UI image here -->
+![User Interface](images/ui-connection.jpg)
+
+---
+
+## 🎥 Demo Video
+
+<!-- Add demo video link here -->
+[![Demo Video](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=VIDEO_ID)
+
+Or watch the demo video: [Video Link](#)
+
+---
+
+## 📊 Status Messages
+
+| Status | Description |
+|--------|-------------|
+| `System Online` | System ready and connected |
+| `ML set to: X` | Volume set |
+| `Time set to: X` | Time set |
+| `Running...` | Injection in progress |
+| `Returning...` | Retracting |
+| `Finished. Ready.` | Operation completed |
+| `Error: Set ML & Time` | Error: Must set volume and time |
+
+## 🔒 Safety and Warnings
+
+⚠️ **Important Warnings:**
+- Ensure proper electrical connections
+- Use appropriate power supply
+- Do not use with hazardous fluids without supervision
+- Clean the system after each use
+- Test the system before actual use
+
+## 🐛 Troubleshooting
+
+### Issue: Cannot connect to WiFi
+- Check network name and password
+- Verify WiFi signal strength
+
+### Issue: Cannot connect to MQTT
+- Check server address
+- Verify internet connection
+
+### Issue: Motor not working
+- Check connections
+- Verify power supply voltage
+- Review step settings
+
+## 👥 Team & Contributors
+
+This project was developed collaboratively by a team of contributors:
+
+- **Project Lead**: [Your Name]
+- **Team Members**: 
+  - [Team Member 1]
+  - [Team Member 2]
+  - [Team Member 3]
+  - [Additional Contributors...]
+
+### Contributions:
+- Hardware design and assembly
+- Software development and programming
+- Mechanical design and fabrication
+- Testing and validation
+- Documentation
+
+Special thanks to all team members who contributed to making this project possible.
+
+## 📝 License
+
+This project is open source and available for use and modification.
+
+## 📞 Support
+
+For help or inquiries, please open an Issue in the repository.
+
+---
+
+**Last Updated**: 2024
