@@ -119,9 +119,8 @@
 
 ### Application Demo Video
 
-Uploading Demo video.mp4…
+https://github.com/user-attachments/assets/89007e8e-87df-4934-804e-e79ac8138741
 
-*This video demonstrates the complete workflow of the application, including user authentication, solution configuration, real-time pump control, and history tracking.*
 
 </div>
 
