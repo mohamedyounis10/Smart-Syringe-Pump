@@ -202,12 +202,10 @@ Or watch the demo video: [Video Link](#)
 
 This project was developed collaboratively by a team of contributors:
 
-- **Project Lead**: [Your Name]
-- **Team Members**: 
-  - [Team Member 1]
-  - [Team Member 2]
-  - [Team Member 3]
-  - [Additional Contributors...]
+- **Mohamed Younis** – [GitHub Profile](https://github.com/mohamedyounis10)
+- **Bassel Elbahnasy** – [GitHub Profile](https://github.com/Bassel1000)
+- **‪Yousef ElSaket‬‏** – [GitHub Profile](https://github.com/iiiiOreo)
+- **‪Amin Mubarak** – [GitHub Profile]()
 
 ### Contributions:
 - Hardware design and assembly
@@ -221,11 +219,3 @@ Special thanks to all team members who contributed to making this project possib
 ## 📝 License
 
 This project is open source and available for use and modification.
-
-## 📞 Support
-
-For help or inquiries, please open an Issue in the repository.
-
----
-
-**Last Updated**: 2024
