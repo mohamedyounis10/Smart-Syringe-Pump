@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "787685372174",
+    "project_id": "syringe-edf9e",
+    "storage_bucket": "syringe-edf9e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:787685372174:android:476c460062409a6680e75f",
+        "android_client_info": {
+          "package_name": "com.example.the_dose"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpRHp_8ffSsFfx0ZVt3Nn9bIgkaUbT5K0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
