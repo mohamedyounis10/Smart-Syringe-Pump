@@ -130,15 +130,17 @@ const int RETRACT_SPEED_MICROS = 2000; // Retraction speed
 
 ## 🖥️ User Interface (UI)
 
-The project is connected to a user interface for remote control of the pump.
+The system is connected to a Flutter-based user interface located in the app folder.
+The UI provides full remote control and monitoring of the syringe pump.
 
 ### UI Features:
 - Set liquid volume
 - Set injection time
-- Start/Stop button
+- Start/Stop pump control
 - Real-time system status display
-- Operation log
+- Operation and event logs
 
+All UI source code and related details are available inside the app folder.
 ---
 
 ## 📸 Project Images
