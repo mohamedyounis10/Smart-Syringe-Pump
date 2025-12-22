@@ -205,7 +205,7 @@ This project was developed collaboratively by a team of contributors:
 - **Mohamed Younis** – [GitHub Profile](https://github.com/mohamedyounis10)
 - **Bassel Elbahnasy** – [GitHub Profile](https://github.com/Bassel1000)
 - **‪Yousef ElSaket‬‏** – [GitHub Profile](https://github.com/iiiiOreo)
-- **‪Amin Mubarak** – [GitHub Profile]()
+- **‪Amin Mubarak** – [GitHub Profile](https://github.com/aminayssar)
 
 ### Contributions:
 - Hardware design and assembly
