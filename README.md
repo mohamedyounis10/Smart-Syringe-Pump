@@ -146,21 +146,16 @@ All UI source code and related details are available inside the app folder.
 ## 📸 Project Images
 
 ### Complete Project Image
-<!-- Add project image here -->
-![Smart Syringe Pump Project](images/project-image.jpg)
+![Smart Syringe Pump Project](<img width="1216" height="913" alt="image" src="https://github.com/user-attachments/assets/a363237d-6262-4a7a-a65b-39eb5aa9fef0" />)
 
 ### UI Connection Image
-<!-- Add UI image here -->
-![User Interface](images/ui-connection.jpg)
+![User Interface](<img width="1920" height="1080" alt="Smart Syringe Pump" src="https://github.com/user-attachments/assets/d967a152-3814-424c-9687-57bf5d4d5e3e" />)
 
 ---
 
-## 🎥 Demo Video
+## 🎥 Time‑lapse video
 
-<!-- Add demo video link here -->
-[![Demo Video](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=VIDEO_ID)
-
-Or watch the demo video: [Video Link](#)
+watch videos : [Video Link](https://drive.google.com/drive/folders/1vN-H-6kg4Qjui0s4BIMZB5SvRtraOUYK?usp=sharing)
 
 ---
 
