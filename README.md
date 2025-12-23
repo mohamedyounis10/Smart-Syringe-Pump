@@ -146,10 +146,10 @@ All UI source code and related details are available inside the app folder.
 ## 📸 Project Images
 
 ### Complete Project Image
-![Smart Syringe Pump Project](<img width="1216" height="913" alt="image" src="https://github.com/user-attachments/assets/a363237d-6262-4a7a-a65b-39eb5aa9fef0" />)
+<img width="1216" height="913" alt="image" src="https://github.com/user-attachments/assets/a363237d-6262-4a7a-a65b-39eb5aa9fef0" />
 
 ### UI Connection Image
-![User Interface](<img width="1920" height="1080" alt="Smart Syringe Pump" src="https://github.com/user-attachments/assets/d967a152-3814-424c-9687-57bf5d4d5e3e" />)
+<img width="1920" height="1080" alt="Smart Syringe Pump" src="https://github.com/user-attachments/assets/d967a152-3814-424c-9687-57bf5d4d5e3e" />
 
 ---
 
