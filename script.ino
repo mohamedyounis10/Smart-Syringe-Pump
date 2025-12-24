@@ -13,8 +13,8 @@ float stored_ml = 0.0;
 float stored_time = 0.0;     
 
 // ===================== WIFI + MQTT =====================
-const char* wifi_ssid = "Bassel_A15";
-const char* wifi_password = "Gf^k@!BUQ0*3K4";
+const char* wifi_ssid = "SSID";
+const char* wifi_password = "Password";
 
 const char* mqtt_server = "test.mosquitto.org"; 
 const int mqtt_port = 1883;
